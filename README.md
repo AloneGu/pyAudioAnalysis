@@ -13,3 +13,7 @@ and its requirements: follow this page: https://github.com/tyiannak/pyAudioAnaly
 The sklearn version is 0.16 as hmm is removed in latest version:
 
 pip install scikit-learn==0.16
+
+## Example to do spear diarization
+
+        python audioAnalysis.py speakerDiarization -i data/test.wav --num 0 --flsd
