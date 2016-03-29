@@ -14,6 +14,8 @@ The sklearn version is 0.16 as hmm is removed in latest version:
 
 pip install scikit-learn==0.16
 
+source xxx
+
 ## Example to do speaker diarization
 
         python audioAnalysis.py speakerDiarization -i data/test.wav --num 0 --flsd
